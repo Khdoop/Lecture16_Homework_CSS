@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+li.l1 {
+	border-right: 5px solid #ff9966;
+}
+
+article {
+	color: white;
+}
+
+article > p {
+	padding: 1em;
+	font-size: 1.3em;
+}

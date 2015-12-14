@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Trebuchet MS;
+	font-size: 15px;
+}
+
+div {
+	width: 400px;
+	height: 240px; 
+	margin: 0 auto;
+}
+
+table,th,td {
+	border: 1px solid grey;
+}
+
+#BlanchedAlmond {
+	background-color: #ffebcd;
+}
+
+#CadetBlue {
+	background-color: #5f9ea0;
+}
+
+#BurlyWood {
+	background-color: #deb887;
+}
+
+#DarkOliveGreen {
+	background-color: #556b2f;
+}
+
+#HotPink {
+	background-color: #ff69b4;
+}
+
+#PapayaWhip {
+	background-color: #ffefd5;
+}
