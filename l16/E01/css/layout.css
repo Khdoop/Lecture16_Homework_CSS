@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Trebuchet MS;
+}
+
+#container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	min-height: 50px;
+	background-color: #ffcc66;
+}
+
+section {
+	width: 90%;
+	min-height: 100px;
+	background-color: #ff8433;
+	margin: 5px auto;
+}
+
+#footers {
+	width: 90%;
+	margin: 5px auto;
+	
+}
+
+footer {
+	width: 49%;
+	min-height: 25px;
+	background-color: #ff8080;
+}
+
+footer:first-child {
+	float: left;
+}
+
+footer:last-child {
+	float: right;
+}
+
+#text {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.t1 {
+	line-height: 50px;
+}
+
+.t2 {
+	line-height: 100px;
+}
+
+.t3 {
+	line-height: 25px;
+}
+
