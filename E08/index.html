@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Overkill much?</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css"/>
+		<script src="js/bet.js"></script>
+	</head>
+	<body>
+		<div id="bet">
+			<button onclick="spin2win()">Spin</button>
+			<span>Bank:<span>100</span></span>
+			<br />
+			<button class="mana" onclick="checkall()">+</button>
+			<button class="mana" onclick="uncheckall()">-</button>
+			<br />
+			<span class="payout">Payout: 35:1</span>
+			<table>
+				<tbody>
+					<tr>
+						<td colspan="3">
+							<h4>0</h4>
+							<input type="checkbox" value="0"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>1</h4>
+							<input type="checkbox" value="1"/>
+						</td>
+						<td>
+							<h4>2</h4>
+							<input type="checkbox" value="2"/>
+						</td>
+						<td>
+							<h4>3</h4>
+							<input type="checkbox" value="3"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>4</h4>
+							<input type="checkbox" value="4"/>
+						</td>
+						<td>
+							<h4>5</h4>
+							<input type="checkbox" value="5"/>
+						</td>
+						<td>
+							<h4>6</h4>
+							<input type="checkbox" value="6"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>7</h4>
+							<input type="checkbox" value="7"/>
+						</td>
+						<td>
+							<h4>8</h4>
+							<input type="checkbox" value="8"/>
+						</td>
+						<td>
+							<h4>9</h4>
+							<input type="checkbox" value="9"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>10</h4>
+							<input type="checkbox" value="10"/>
+						</td>
+						<td>
+							<h4>11</h4>
+							<input type="checkbox" value="11"/>
+						</td>
+						<td>
+							<h4>12</h4>
+							<input type="checkbox" value="12"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>13</h4>
+							<input type="checkbox" value="13"/>
+						</td>
+						<td>
+							<h4>14</h4>
+							<input type="checkbox" value="14"/>
+						</td>
+						<td>
+							<h4>15</h4>
+							<input type="checkbox" value="15"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>16</h4>
+							<input type="checkbox" value="16"/>
+						</td>
+						<td>
+							<h4>17</h4>
+							<input type="checkbox" value="17"/>
+						</td>
+						<td>
+							<h4>18</h4>
+							<input type="checkbox" value="18"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>19</h4>
+							<input type="checkbox" value="19"/>
+						</td>
+						<td>
+							<h4>20</h4>
+							<input type="checkbox" value="20"/>
+						</td>
+						<td>
+							<h4>21</h4>
+							<input type="checkbox" value="21"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>22</h4>
+							<input type="checkbox" value="22"/>
+						</td>
+						<td>
+							<h4>23</h4>
+							<input type="checkbox" value="23"/>
+						</td>
+						<td>
+							<h4>24</h4>
+							<input type="checkbox" value="24"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>25</h4>
+							<input type="checkbox" value="25"/>
+						</td>
+						<td>
+							<h4>26</h4>
+							<input type="checkbox" value="26"/>
+						</td>
+						<td>
+							<h4>27</h4>
+							<input type="checkbox" value="27"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>28</h4>
+							<input type="checkbox" value="28"/>
+						</td>
+						<td>
+							<h4>29</h4>
+							<input type="checkbox" value="29"/>
+						</td>
+						<td>
+							<h4>30</h4>
+							<input type="checkbox" value="30"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>31</h4>
+							<input type="checkbox" value="31"/>
+						</td>
+						<td>
+							<h4>32</h4>
+							<input type="checkbox" value="32"/>
+						</td>
+						<td>
+							<h4>33</h4>
+							<input type="checkbox" value="33"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>34</h4>
+							<input type="checkbox" value="34"/>
+						</td>
+						<td>
+							<h4>35</h4>
+							<input type="checkbox" value="35"/>
+						</td>
+						<td>
+							<h4>36</h4>
+							<input type="checkbox" value="36"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+		<div id="container">
+			
+			<ul class="circle">
+				<li><div class="text">0</div></li>
+			    <li><div class="text">32</div></li>
+			    <li><div class="text">15</div></li>
+			    <li><div class="text">19</div></li>
+			    <li><div class="text">4</div></li>
+			    <li><div class="text">21</div></li>
+			    <li><div class="text">2</div></li>
+			    <li><div class="text">25</div></li>
+			    <li><div class="text">17</div></li>
+			    <li><div class="text">34</div></li>
+			    <li><div class="text">6</div></li>
+			    <li><div class="text">27</div></li>
+			    <li><div class="text">13</div></li>
+			    <li><div class="text">36</div></li>
+			    <li><div class="text">11</div></li>
+			    <li><div class="text">30</div></li>
+			    <li><div class="text">8</div></li>
+			    <li><div class="text">23</div></li>
+			    <li><div class="text">10</div></li>
+			    <li><div class="text">5</div></li>
+			    <li><div class="text">24</div></li>
+			    <li><div class="text">16</div></li>
+			    <li><div class="text">33</div></li>
+			    <li><div class="text">1</div></li>
+			    <li><div class="text">20</div></li>
+			    <li><div class="text">14</div></li>
+			    <li><div class="text">31</div></li>
+			    <li><div class="text">9</div></li>
+			    <li><div class="text">22</div></li>
+			    <li><div class="text">18</div></li>
+			    <li><div class="text">29</div></li>
+			    <li><div class="text">7</div></li>
+			    <li><div class="text">28</div></li>
+			    <li><div class="text">12</div></li>
+			    <li><div class="text">35</div></li>
+			    <li><div class="text">3</div></li>
+				<li><div class="text">26</div></li>
+			</ul>
+			<ul class="circle2">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<div class="circle3"><h4></h4></div>
+			<div id="path">
+				<div id="ball"></div>
+			</div>
+		</div>
+	</body>
+</html>
