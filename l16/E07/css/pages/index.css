@@ -1,0 +1,23 @@
+header section, footer {
+    background: cornflowerblue;
+}
+
+header section ul li a {
+    color: white;
+}
+
+header nav {
+    margin: 0 !important;
+}
+
+body > section {
+    margin: 1em 0;
+}
+
+img.img-responsive.img-thumbnail:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}

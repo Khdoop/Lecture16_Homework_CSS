@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+#container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 25px;
+	background-color: #0080c0;
+}
+
+section {
+	width: 90%;
+	margin: 0 auto;
+}
+
+article {
+	min-height: 200px;
+	border: 1px solid #008000;
+	margin-bottom: 10px;
+}
+
+article > h1 {
+	background-color: #008000;
+}
+
+h1 {
+	min-height: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+section > h1.main {
+	color: black;
+	margin: 10px;
+	font-size: 22px;
+}
+
+.text {
+	line-height: 25px;
+	padding-left: 0.3em;
+}
+
+article > p {
+	padding: 0.5em;
+	min-height: 120px;
+}
+
+.date, .link {
+	font-size: 14px;
+	color: grey;
+	padding-left: 0.5em;
+}
+
+

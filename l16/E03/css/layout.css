@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Trebuchet MS;
+}
+
+#container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	min-height: 50px;
+	background-color: #ffcc66;
+}
+
+section {
+	width: 100%;
+	min-height: 300px;
+	margin: 5px auto;
+	display: inline-block;
+}
+
+section > * {
+	float: left;
+}
+
+aside {
+	width: 19%;
+
+	background-color: #C65D57;
+	min-height: 300px;
+}
+
+article {
+	width: 60%;
+	background-color: #ff8433;
+	min-height: 300px;
+	margin: 0 1%;
+}
+
+footer {
+	width: 100%;
+	min-height: 50px;
+	background-color: #ff8080;
+}
+
+#text {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.t1 {
+	line-height: 50px;
+}
+
+.t2 {
+	line-height: 300px;
+}
+
+/* .t22 {
+	line-height: 50px;
+} */
+
+.t3 {
+	line-height: 50px;
+}
+
+aside img {
+	display: block;
+	margin: 0 auto;
+}

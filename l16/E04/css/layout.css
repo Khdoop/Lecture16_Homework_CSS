@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Trebuchet MS;
+}
+
+#container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	min-height: 75px;
+	background-color: #ffcc66;
+}
+
+section {
+	width: 100%;
+	min-height: 300px;
+	margin: 5px auto;
+}
+
+aside {
+	width: 29%;
+	float: left;
+	background-color: #C65D57;
+	min-height: 300px;
+}
+
+article {
+	width: 70%;
+	float: right;
+	background-color: #ff8433;
+	min-height: 300px;
+}
+
+footer {
+	width: 100%;
+	min-height: 75px;
+	background-color: #ff8080;
+}
+
+#text {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.t1 {
+	line-height: 75px;
+}
+
+.t2 {
+	line-height: 300px;
+}
+
+.t3 {
+	line-height: 75px;
+}
